@@ -87,7 +87,7 @@ const Navbar = () => {
                 </li>
                 <li className='flex'>
                     <ShoppingCartIcon className='h-5 w-5 text-black'></ShoppingCartIcon>
-                    {context.count}
+                    {context.cartProducts.length}
                 </li>
             </ul>
         </nav>
